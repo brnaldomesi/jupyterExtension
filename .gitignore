@@ -1,0 +1,20 @@
+# Ignore everything
+*.pyc
+.ipynb_checkpoints/
+
+# whitelist
+# ---------
+
+!.gitignore
+
+
+# Ignore following
+.idea
+jupyter_text2code.egg-info/
+.pickle
+
+ner_train_data.pickle
+
+build/
+dist/
+venv
